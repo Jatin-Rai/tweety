@@ -128,7 +128,7 @@ src
 
 ## Hosting
 
-The application is hosted at [insert hosted URL here].
+The application is hosted at [Tweety](https://twee-ty.netlify.app/).
 
 ## Conclusion
 
