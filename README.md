@@ -96,7 +96,7 @@ src
 - **FeedsPage**: Displays a feed of posts from followed users.
 - **Layout**: The main layout component that wraps around other components.
 - **PeoplePage**: Displays a list of all users.
-- **ProfilePage**: Displays the profile and posts of a single user.
+- **ProfilePage**: Displays the profile and posts, followers and following of a single user.
 
 ### State Management
 
