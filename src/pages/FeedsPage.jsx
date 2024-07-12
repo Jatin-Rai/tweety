@@ -22,13 +22,13 @@ const FeedsPage = () => {
     isLoading: postsLoading,
     error: postsError
   } = useGetPostsQuery();
-  
+
   const {
     data: users,
     isLoading: usersLoading,
     error: usersError
   } = useGetUsersQuery();
-  
+
   const {
     data: following,
     isLoading: followingLoading,
@@ -60,7 +60,7 @@ const FeedsPage = () => {
 
   return (
     <Layout>
-      <section className='pt-28 w-full'>
+      <section className='pt-28 w-1/2'>
         {postsLoading || usersLoading || followingLoading
           ? <Spinner />
           : (

@@ -43,7 +43,7 @@ const Card = ({ data, profileUsername }) => {
     };
 
     return (
-        <div className='relative shadow bg-white w-1/2 p-5 rounded-lg z-0'>
+        <div className='relative shadow bg-white w-full p-5 rounded-lg z-0'>
             <div className='flex items-center justify-between border-b border-gray-500'>
                 {displayUsername && (
                     <div className='flex items-center space-x-2 pb-2'>
